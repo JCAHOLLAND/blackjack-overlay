@@ -30,14 +30,13 @@ the cards as they deal and flip.
 
 ## Get started
 
-### Run the Windows app
+### Windows executable
 
-Download `BlackjackOverlay.exe` from the project's **Releases** page and run it.
-The app does not need a Python installation. Windows may show a warning for an
+There is no prebuilt download yet. When a release is published, the executable
+will be available on the project's [Releases page](https://github.com/JCAHOLLAND/blackjack-overlay/releases).
+Until then, build it from source using the instructions below. Once built, the
+app does not need a Python installation. Windows may show a warning for an
 unsigned executable; only run builds you trust.
-
-> A GitHub Releases download is not available until a release is published.
-> Alternatively, build the app from source using the instructions below.
 
 ### Run from source
 
@@ -122,4 +121,3 @@ and source-to-image mapping are included in [`assets/`](assets/):
 - `assets/cards/` — card images used by the app
 - `assets/svg/` — original SVG artwork
 - `main.py` — supplied console blackjack example
-

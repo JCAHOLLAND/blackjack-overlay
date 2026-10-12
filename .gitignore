@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.vscode/
+
+# PyInstaller output
+/build/
+/dist/
+
+# Local diagnostic output can include machine-specific runtime details
+/input-diagnostics*.json
+*.tmp

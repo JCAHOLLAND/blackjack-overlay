@@ -30,42 +30,6 @@ the cards as they deal and flip.
 
 ## Get started
 
-### Windows executable
-
-There is no prebuilt download yet. When a release is published, the executable
-will be available on the project's [Releases page](https://github.com/JCAHOLLAND/blackjack-overlay/releases).
-Until then, build it from source using the instructions below. Once built, the
-app does not need a Python installation. Windows may show a warning for an
-unsigned executable; only run builds you trust.
-
-### Run from source
-
-1. Install Python 3.10 or later with **Tkinter** enabled.
-2. Download or clone this repository.
-3. From the project folder, run:
-
-   ```powershell
-   py -3 gui.py
-   ```
-
-On Windows, `Start overlay.cmd` launches the app using an installed Python
-runtime. `Start overlay.pyw` launches without a console window when `.pyw` files
-are associated with Python.
-
-### Build the executable
-
-Install PyInstaller, then run this from the project folder in PowerShell:
-
-```powershell
-py -3 -m pip install pyinstaller
-py -3 -m PyInstaller --noconfirm --clean --windowed --name BlackjackOverlay `
-  --add-data "assets\cards;assets\cards" gui.py
-```
-
-The distributable folder is `dist\BlackjackOverlay\`. Share the **whole folder**
-for this build. To make a single-file executable instead, add `--onefile` to
-the PyInstaller command; the output will be `dist\BlackjackOverlay.exe`.
-
 ## Controls
 
 | Key | Betting / between hands | Your turn |
